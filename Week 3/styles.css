@@ -1,0 +1,90 @@
+h2{
+    color:red;
+    font-weight: normal;
+    
+}
+main h2{ /* main denotes that it considers all the h2  which are descendants of main*/
+    color:hsl(136, 100%, 50%);
+    font-size: 2.5em;
+}
+body{
+    /*font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em; /*em(unit) is a  multiplier. 
+    It takes the current default font size (for the current element)
+    and multiplies by the multiplier number*/
+    /*By default, 1em or 100% for font size usually corresponds to 16px. */
+    font-style: italic;
+    line-height: 1.25;/* */
+    font:normal 1em/1.25 Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+    
+}
+#header {
+    background-color: rgb(32, 43, 196);
+}
+#Search-from-example {
+    letter-spacing:20px;/*Adjust spacing  between the characters */
+}
+
+a {/*Selects only the text under the a tag */
+color:brown;
+}
+
+#sidebar {
+    font-size: 0.8em;
+   
+}
+
+.read-more{
+    font-size: 20px;
+}
+
+a.button{
+    background-color: black;
+    color: blanchedalmond;
+    padding:0.5em 0.8em 0.5em 0.8em;/*This is the dimension of padding and this are 
+    the dimensions */
+}
+/*Possine link psuedo classes:
+- :link (all a elements which are links)
+-  :hover (element whihc is being hovered over
+- :visited (links which have benn clicked on before
+- :active (links which have been mouse down but before mouse up)*/
+/*a:visited{
+    color: darkorchid;
+}
+a:hover {
+    color: rgb(228, 12, 12);
+}
+a:active{
+    color: rgb(228, 217, 3);
+}*/
+/*All this three syntax should be in order i.e. hover, active, visited */
+main a:visited,
+#sidebar a:visited {
+    color: chartreuse;
+}
+a:hover {
+    color: rgb(228, 12, 12);
+}
+a:active{
+    color: rgb(228, 217, 3);
+}
+
+a.button,
+a.button:visited,
+#sidebar a.button:visited{
+    background-color: rgb(45, 240, 6);
+color: coral;
+}
+.menu {
+    padding: 0;
+    list-style: none;
+}
+.menu li { /* for this, add the class in the required space*/
+    display:inline-block;
+}/*for displaying content horizonatally */
+
+/*Other pseudo classes (see PDF) are
+- :first-child */

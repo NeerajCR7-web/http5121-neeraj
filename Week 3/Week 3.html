@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>
+           Week 3
+        </title>
+           <link rel="stylesheet" type="text/css" href="stylesclass.css"> 
+        
+    </head>
+<form>
+<h2>Search from example</h2>
+<!-- get form is used to execute the date asked but it is not secure as it shows the value in the URL i.e. the password while submitting-->
+ <label for="Search">Search;</label>
+<input type="text" id="search"  name="q" placeholder="e.g. red fox">
+<button type="submit">Search Now</button>
+</form>
+
+
+<!-- post is used to -->
+<form>  
+    <div>
+        <label for="family-size">Number of people in your household</label>
+<input type="number" id="family-size" name="family"  min="1" placeholder="1">   <!-- min indicated=s the lowest value we can enter-->
+    </div>
+    <div>   
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" placeholder="555-555-5555">
+    </div>
+    <div>
+        <label for="email">Email;</label>
+        <input type="email" id="email" name="email" placeholder="hii.example@gmail.com">
+    </div>
+    <input type="hidden" name="test" value="My test value">
+
+<!-- some syntax should be wriiten in the same line like textarea-->
+
+<div>
+<label for="reason">Reason for inquiry</label>
+<header>
+    <h2>
+        <a href="%">Site Name</a>
+    </h2>
+    <nav aria-label="Main Navigation">
+        <ul class="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="%">News</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="@">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>  
+    <!-- h1 for main's content title-->
+     <h1>This is the main article</h1>
+     <p>Hii</p>
+     <h2>Subheading</h2>
+     <p>...</p>
+     <footer>
+        <h2>Related News</h2>
+        <ul>
+            <li><a href="%">Random news articles</a></li>
+            <li><a href="%">Football is amazing</a></li>
+        </ul>
+     </footer>
+</main>
+<aside>
+    <section>
+        <h2>Local News</h2>
+        <ul>
+            <li><a href="%">Article 1</a></li>
+            <li><a href="%">Article 2</a></li>
+        </ul>
+        <a class="read-more button" href="a">Read More Local News</a>
+    </section>
+</aside>
+
+
+</form>
+</html>
